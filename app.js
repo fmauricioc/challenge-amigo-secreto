@@ -2,6 +2,7 @@
 let amigos = [];
 let lista = document.getElementById('listaAmigos');
 document.getElementById("Sboton").disabled = false;
+document.getElementById("Aboton").disabled = false;
 function agregarAmigo() {
     let nombreAmigo = document.getElementById('amigo').value;
     
@@ -30,6 +31,8 @@ function sortearAmigo() {
     } else {
         let amigoSorteado =  Math.floor(Math.random()*amigos.length-1)+1;
        // console.log (amigoSorteado);
-        document.getElementById('resultado').innerHTML += `<li>${amigos[amigoSorteado]}</li>`;
-        document.getElementById("Sboton").disabled = true;    }
+        document.getElementById('resultado').innerHTML += `<li>"El Amigo Sorteado es: ${amigos[amigoSorteado]}"</li>`;
+        document.getElementById("Sboton").disabled = true;   
+        document.getElementById("Aboton").disabled = true;
+     }
 }
