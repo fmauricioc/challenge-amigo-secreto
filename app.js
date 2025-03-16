@@ -19,9 +19,9 @@ function agregarAmigo() {
 function crearLista() {
     lista.innerHTML = "";
     for ( let i=0;i<= amigos.length -1; i++) {
-        console.log(i);
+        //console.log(i);
         lista.innerHTML +=`<li>${amigos[i]}</li>`; 
-        console.log(lista.innerHTML);     
+       // console.log(lista.innerHTML);     
     }    
 }
 function sortearAmigo() {
@@ -29,7 +29,7 @@ function sortearAmigo() {
         alert("debes haber ingresado almenos un nombre de amigo");
     } else {
         let amigoSorteado =  Math.floor(Math.random()*amigos.length-1)+1;
-        console.log (amigoSorteado);
+       // console.log (amigoSorteado);
         document.getElementById('resultado').innerHTML += `<li>${amigos[amigoSorteado]}</li>`;
     }
 }
