@@ -13,7 +13,7 @@ https://github.com/fmauricioc/challenge-amigo-secreto/
 
 ### Instalación 🔧
 
-no requiere instalacion
+no requiere instalacion solo acceder a la url: https://fmauricioc.github.io/challenge-amigo-secreto/
 ```
 
 ## Ejecutando las pruebas ⚙️
