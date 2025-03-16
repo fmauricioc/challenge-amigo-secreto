@@ -7,9 +7,7 @@ _esto es el challenge del amigo secreto del curso oracle one_
 
 _Aceder a repositorio donde se aloja el proyecto en github_
 
-```
-https://github.com/fmauricioc/challenge-amigo-secreto/
-```
+```https://fmauricioc.github.io/challenge-amigo-secreto/```
 
 ### Instalación 🔧
 
