@@ -19,9 +19,12 @@ no requiere instalacion solo acceder a la url: https://fmauricioc.github.io/chal
 ## Ejecutando las pruebas ⚙️
 
 al ingresar a la pagina solo debes ingresar los nombres en el recuadro blanco y
-presionar en añadir para que se vayan agregando a la lista
-cundo todos los nombres esten agregados debes presionar el boton sorteo y
-en verde saldra el nombre del amigo secreto que fue elegido aleatoriamente
+presionar en "añadir" para que se vayan agregando a la lista
+cuando todos los nombres esten agregados debes presionar el boton sorteo y
+en verde saldra el nombre del amigo secreto que fue elegido aleatoriamente.
+
+una vez presionado el boton de sorteo quedara bloqueada la posibilidad de sortear nuevamente
+y de agregar mas nombres a la lista. siendo la unica posibilidad de reiniciar presionar F5
 
 
 ## Construido con 🛠️
